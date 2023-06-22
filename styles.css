@@ -1,0 +1,161 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.header {
+  background-color: black;
+  height: 50px;
+}
+.second {
+  color: white;
+  display: flex;
+  margin: 160px;
+  margin-top: -50px;
+  justify-content: space-between;
+}
+
+#address {
+  display: flex;
+  margin-left: -66px;
+  font-weight: 300;
+}
+
+.searchbar {
+  margin-left: 5px;
+}
+.all {
+  color: black;
+}
+.textinput {
+  width: 600px;
+  height: 20px;
+}
+.searchbar {
+  margin-left: 45px;
+}
+.search {
+  margin-left: 660px;
+  margin-top: -24px;
+}
+.indiaflag {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.Orders {
+  color: white;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: -30px;
+}
+.cart {
+  margin-left: 20px;
+  width: 40px;
+  height: 30px;
+  margin-top: -2px;
+  margin-bottom: 80%;
+}
+.carttext {
+  margin-left: 10px;
+  margin-top: -1px;
+}
+.nav {
+  display: flex;
+  height: 30px;
+  background-color: rgb(97, 167, 170);
+}
+.ham {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+img.ham{
+  margin-right: 10px;
+}
+
+#lion {
+  height: 30px;
+  margin-top: -300px;
+  margin-left: 1000px;
+}
+.background {
+  width: 100%;
+  height: 600px;
+}
+
+.nested-product {
+  width: 150px;
+}
+
+.nested-product img {
+  width: 100%;
+}
+.product-nested-card {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  max-width: 300px;
+  justify-content: space-evenly;
+}
+.productcard1 {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 300px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.productcard2 {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  max-width: 300px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.productcard3 {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  max-width: 300px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  gap: 2%;
+}
+
+#signin {
+  background-color: yellow;
+  display: block;
+  border-radius: 6em;
+  color: black;
+  padding: 8px;
+  text-align: center;
+}
+.product-card>div {
+  background-color: #fff;
+}
+.products {
+  display: flex;
+  width: 100%;
+  margin-top: -28%;
+  margin-left: 3%;
+  margin-inline: 10px; 
+
+}
+
+.cards {
+  width: 300px;
+}
+
+
+.product-card>div>h2 {
+  display: flex;
+  margin-bottom: 20px;
+  height: 50px;
+}
